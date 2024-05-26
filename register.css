@@ -1,0 +1,209 @@
+.register-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.register-navbar {
+  align-items: center;
+  flex-direction: column;
+}
+.register-navbar-interactive {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.register-logo {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.register-image {
+  width: 22px;
+  object-fit: cover;
+  margin-right: 14px;
+}
+.register-text {
+  font-size: 20px;
+  font-style: normal;
+  font-family: "Urbanist";
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.register-text01 {
+  color: #eda35e;
+}
+.register-desktop-menu {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+.register-links {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.register-text03 {
+  color: var(--dl-color-scheme-green80);
+  margin-right: var(--dl-space-space-twounits);
+}
+.register-text04 {
+  color: var(--dl-color-scheme-green80);
+  margin-right: var(--dl-space-space-twounits);
+}
+.register-text05 {
+  color: var(--dl-color-scheme-green80);
+  margin-right: var(--dl-space-space-twounits);
+}
+.register-text06 {
+  color: var(--dl-color-scheme-green80);
+  margin-right: var(--dl-space-space-twounits);
+}
+.register-burger-menu {
+  display: none;
+}
+.register-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.register-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  transform: translateX(100%);
+  transition: 0.5s;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.register-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.register-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.register-logo1 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.register-image1 {
+  width: 22px;
+  object-fit: cover;
+  margin-right: 14px;
+}
+.register-text08 {
+  color: var(--dl-color-scheme-orange100);
+}
+.register-close-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.register-icon02 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.register-links1 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.register-text10 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.register-text11 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.register-text12 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.register-text13 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.register-text14 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.register-buttons {
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.register-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.register-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.register-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.register-text15 {
+  font-size: 54px;
+}
+@media(max-width: 767px) {
+  .register-desktop-menu {
+    display: none;
+  }
+  .register-links {
+    display: none;
+  }
+  .register-burger-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .register-text10 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .register-text11 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .register-text12 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .register-text13 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .register-text14 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .register-mobile-menu {
+    padding: 16px;
+  }
+}

@@ -1,0 +1,308 @@
+.identify-species-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.identify-species-navbar {
+  align-items: center;
+  flex-direction: column;
+}
+.identify-species-navbar-interactive {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.identify-species-logo {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.identify-species-image {
+  width: 22px;
+  object-fit: cover;
+  margin-right: 14px;
+}
+.identify-species-text {
+  font-size: 20px;
+  font-style: normal;
+  font-family: "Urbanist";
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.identify-species-text01 {
+  color: #eda35e;
+}
+.identify-species-desktop-menu {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+.identify-species-links {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.identify-species-text03 {
+  color: var(--dl-color-scheme-green80);
+  margin-right: var(--dl-space-space-twounits);
+}
+.identify-species-text04 {
+  color: var(--dl-color-scheme-green80);
+  margin-right: var(--dl-space-space-twounits);
+}
+.identify-species-text05 {
+  color: var(--dl-color-scheme-green80);
+  margin-right: var(--dl-space-space-twounits);
+}
+.identify-species-text06 {
+  color: var(--dl-color-scheme-green80);
+  margin-right: var(--dl-space-space-twounits);
+}
+.identify-species-burger-menu {
+  display: none;
+}
+.identify-species-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.identify-species-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  transform: translateX(100%);
+  transition: 0.5s;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.identify-species-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.identify-species-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.identify-species-logo1 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.identify-species-image1 {
+  width: 22px;
+  object-fit: cover;
+  margin-right: 14px;
+}
+.identify-species-text08 {
+  color: var(--dl-color-scheme-orange100);
+}
+.identify-species-close-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.identify-species-icon02 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.identify-species-links1 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.identify-species-text10 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.identify-species-text11 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.identify-species-text12 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.identify-species-text13 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.identify-species-text14 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.identify-species-buttons {
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.identify-species-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.identify-species-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.identify-species-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.identify-species-hero {
+  height: 328px;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.identify-species-max-width1 {
+  align-items: center;
+}
+.identify-species-content {
+  flex: 0 0 auto;
+  width: 45%;
+  margin: auto;
+  margin-top: 32px;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-threeunits);
+  flex-direction: column;
+}
+.identify-species-subtitle {
+  font-size: 14px;
+  font-style: normal;
+  font-family: "Urbanist";
+  font-weight: 800;
+  line-height: 1.15;
+  margin-bottom: var(--dl-space-space-unit);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.identify-species-text15 {
+  color: #ff7c00;
+  font-size: 14px;
+  font-style: normal;
+  font-family: "Urbanist";
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.identify-species-text16 {
+  color: #efefef;
+}
+.identify-species-title {
+  color: var(--dl-color-scheme-white);
+  font-size: 52px;
+  font-style: normal;
+  font-family: "Urbanist";
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.identify-species-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+}
+.identify-species-image2 {
+  position: relative;
+  padding-bottom: var(--dl-space-space-eightunits);
+}
+.identify-species-graphic-top {
+  top: 0px;
+  right: -170px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  max-width: 359px;
+  max-height: 359px;
+  object-fit: contain;
+  object-position: center;
+}
+.identify-species-image3 {
+  top: -153px;
+  left: -154px;
+  position: absolute;
+  object-fit: contain;
+}
+@media(max-width: 991px) {
+  .identify-species-content {
+    width: 50%;
+    margin-right: var(--dl-space-space-unit);
+  }
+  .identify-species-image2 {
+    padding-bottom: var(--dl-space-space-threeunits);
+  }
+}
+@media(max-width: 767px) {
+  .identify-species-desktop-menu {
+    display: none;
+  }
+  .identify-species-links {
+    display: none;
+  }
+  .identify-species-burger-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .identify-species-text10 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .identify-species-text11 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .identify-species-text12 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .identify-species-text13 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .identify-species-text14 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .identify-species-max-width1 {
+    flex-direction: column-reverse;
+  }
+  .identify-species-content {
+    width: 100%;
+    margin-right: 0px;
+  }
+}
+@media(max-width: 479px) {
+  .identify-species-mobile-menu {
+    padding: 16px;
+  }
+}
+main h1{
+    margin: auto;
+    width: fit-content;
+    margin-top: 57px;
+    margin-bottom: 57px;
+    font-size: 69px;
+}
+
